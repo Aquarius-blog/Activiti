@@ -31,7 +31,7 @@ public class TestMyProcess {
     /*创建流程引擎*/
     private ProcessEngine processEngine = ProcessEngines.getDefaultProcessEngine();
 
-    //部署流程流程定义：act_re_procdef 所有流程：act_re_deployment 文件保存表：act_ge_bytearray
+    //部署流程流程定义1：act_re_procdef 所有流程：act_re_deployment 文件保存表：act_ge_bytearray
     @Test
     public void deploy(){
         //部署流程描述文件
