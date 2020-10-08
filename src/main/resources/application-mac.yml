@@ -1,8 +1,8 @@
-# spring配置信息mac修改了win的配置
+# spring配置信息
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/activity_demo?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&nullCatalogMeansCurrent=true
+    url: jdbc:mysql://localhost:3306/activity-demo?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&nullCatalogMeansCurrent=true
     # Jasypt数据库加密方式
     username: root
     password: admin
