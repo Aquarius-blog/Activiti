@@ -1,0 +1,19 @@
+# spring配置信息
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/activity-demo?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&nullCatalogMeansCurrent=true
+    # Jasypt数据库加密方式
+    username: root
+    password: admin
+    type: com.zaxxer.hikari.HikariDataSource
+    # hikari数据库连接池
+    hikari:
+      minimum-idle: 5
+      hikari.maximum-pool-size: 15
+      auto-commit: true
+      idle-timeout: 30000
+      pool-name: DatebookHikariCP
+      max-lifetime: 1800000
+      connection-timeout: 30000
+      connection-test-query: SELECT 1
